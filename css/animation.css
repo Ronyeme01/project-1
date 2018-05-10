@@ -1,0 +1,117 @@
+
+/***************************
+********* slide 1 **********
+****************************/
+.button, .buttonExpand, .buttonExpand {
+	text-align: center;
+	margin: 2em auto;
+	padding: 1em;	
+	width: 135px;
+	background-color: #eee;
+	color: #444;
+	border: 1px solid #eee;
+	display: block;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.button:hover {
+	background-color: #444;
+	color: #eee;
+}
+
+.buttonExpand:hover {
+	background-color: #444;
+	color: #eee;
+	width: 170px;
+}
+
+.buttonBox {
+	position: relative;
+	width: 170px;
+	margin: -30px auto;
+}
+
+.buttonContent {
+	position: absolute;
+	top: 0;
+	left: 1em;
+}
+
+.buttonContent:hover {
+	width: 200px;
+}
+
+.buttonContent:after {
+	content: ' >>';
+	position: absolute;
+	right: -1.5em;
+	transition: right .5s;
+}
+
+.buttonContent:hover:after {
+	right: 1.5em;
+}
+
+
+/***************************
+********* slide 2 **********
+****************************/
+article {
+	position: relative;
+	height: 90vh;
+}
+
+.buttonContainer1 {
+	position: absolute;
+	top: 140px;
+	left: 30px;
+}
+
+.buttonContainer2 {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonContainer3 {
+	position: absolute;
+	bottom: 5px;
+	right: 30px;
+}
+
+/***************************
+********* slide 3 **********
+****************************/
+
+.expandingContainer {
+	height: 35px;
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 5px;
+	background-image: url('../img/chicken.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: height 1.5s;
+}
+
+.expandingContainer:hover {
+	height: 60vh;
+}
+
+.expandingContainer h3 {
+	background-color: rgba(255,255,255,.25);
+	padding: 3px 0;
+	margin: 0;
+}
+
+article:target
+{
+	height: 300px;
+	background: #ccc;
+	overflow: auto;
+}

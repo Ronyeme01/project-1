@@ -1,0 +1,134 @@
+
+/* adjusts for margins and padding in the grid. */* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #444;
+	/*background-image: url('../img/fishing.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	backgrSound-size: cover;
+	background-attachment: fixed;
+	*/
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	background: #ccc;
+	border: 1px solid #333;
+	border-width: 1px 0;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-family: 'Raleway';
+	font-size: 1em;
+	color: #333;
+	text-decoration: none;
+	padding: 15px;
+	background-color: #ccc;
+	transition: all .5s;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #eee;
+}
+
+section {
+	background-color: #444;
+	height: 100vh;
+	margin: 0;
+	width: 600%;
+	padding-top: 50px;
+}
+
+.horizontalSection {
+	float: left;
+	width: 100vw;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', cursive;
+	text-align: center;
+	color: #fff;
+}
+
+h1 {
+	background: #eee;
+	color: #444;
+	font-size: 3rem;
+	font-weight: 100;
+	margin: 0;
+	margin-bottom: 1em;
+	padding: 1em 0;
+	box-shadow: inset 0px -5px 0 -5px rgba(0,0,0,0.24);
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 400;
+	color: #fff;
+	padding: 1em 0;
+	margin: 0;
+	margin-bottom: -.8em;
+}
+
+h3 {
+	font-size: 1.8rem;
+	font-weight: 100;
+}
+
+h4 {
+	font-weight: 100;
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-weight: 100;
+	font-size: 1.1rem;
+	color: #ddd;
+	margin: 0;
+}
+
+hr {
+	margin-top: 1em;
+	width: 500px; 
+	border: 1px solid #777; 
+	text-align: center;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*************************
+      MEDIA QUERIES
+**************************/
+
+@media only screen and (max-width: 480px) {
+
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
